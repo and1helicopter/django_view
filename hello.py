@@ -1,6 +1,6 @@
 from cgi import parse_qs
 
-def application(environ, start_response):
+def wsgi_application(environ, start_response):
 
   query = parse_qs(environ['QUERY_STRING'], keep_blank_values=True)
   body = []
