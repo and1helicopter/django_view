@@ -4,7 +4,7 @@ sudo /etc/init.d/nginx restart
 
 #gunicorn conf
 sudo ln -sf /home/box/etc/hello.py /etc/gunicorn.d/hello.py
-sudo ln -sf /home/box/etc/gunicorn.conf /etc/gunicorn.d/test
+sudo ln -sf /home/box/etc/gunicorn.conf /etc/gunicorn.d/wsgi.example
 sudo /etc/init.d/gunicorn restart 
 
 
