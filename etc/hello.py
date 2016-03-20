@@ -1,5 +1,3 @@
-from cgi import paese_qs
-
 def application(environ, start_response):
 
   status = '200 OK'
