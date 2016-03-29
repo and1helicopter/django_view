@@ -14,8 +14,8 @@ mysql -uroot -e "GRANT ALL PRIVILEGES ON ASK.* TO 'and1helicopter'"
 python /home/box/web/ask/manage.py syncdb
 
 #gunicorn
-cd /home/box/webask/ask/
-gunicorn -b 0.0.0.0:8000 wsgi
+#cd /home/box/webask/ask/
+#gunicorn -b 0.0.0.0:8000 wsgi
 
 
 
